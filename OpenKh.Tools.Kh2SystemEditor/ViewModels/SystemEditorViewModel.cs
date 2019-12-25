@@ -97,7 +97,7 @@ namespace OpenKh.Tools.Kh2SystemEditor.ViewModels
 
             ExitCommand = new RelayCommand(x => Window.Close());
 
-            AboutCommand = new RelayCommand(x => new AboutDialog(Assembly.GetExecutingAssembly()).ShowDialog());
+            AboutCommand = new RelayCommand(x => new OpenKh.Tools.Common.Dialogs.AboutDialog(Assembly.GetExecutingAssembly()).ShowDialog());
 
             LoadSupportIdxCommand = new RelayCommand(_ => FileDialog.OnOpen(fileName => OpenIdx(fileName), IdxFilter, parent: Window));
             LoadSupportMsgCommand = new RelayCommand(_ => FileDialog.OnOpen(fileName => OpenMsg(fileName), MsgFilter, parent: Window));

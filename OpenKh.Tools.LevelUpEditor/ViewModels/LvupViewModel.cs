@@ -69,7 +69,7 @@ namespace OpenKh.Tools.LevelUpEditor.ViewModels
                 //var fd = FileDialog.Factory(null, FileDialog.Behavior.Save, )
             });
             ExitCommand = new RelayCommand(x => Window.Close());
-            AboutCommand = new RelayCommand(x => new AboutDialog(Assembly.GetExecutingAssembly()).ShowDialog());
+            AboutCommand = new RelayCommand(x => new OpenKh.Tools.Common.Dialogs.AboutDialog(Assembly.GetExecutingAssembly()).ShowDialog());
         }
 
         public LvupViewModel(Stream stream)
