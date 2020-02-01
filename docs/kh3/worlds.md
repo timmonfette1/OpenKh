@@ -167,9 +167,9 @@
 |kg_03| /Game/Levels/kg/kg_03/kg_03     | 
 |kg_04| /Game/Levels/kg_DLC/kg_04/kg_04 | 
 |kg_05| /Game/Levels/kg_DLC/kg_04/kg_05 | 
-|kg_06| /Game/Levels/kg_DLC/kg_06/kg_06 | 
-|kg_06| /Game/Levels/kg_DLC/kg_07/kg_07 | 
-|kg_08| /Game/Levels/kg_DLC/kg_08/kg_08 | 
+|kg_06| /Game/Levels/kg_DLC/kg_06/kg_06 | Group Fight with Replica Xehanorts
+|kg_06| /Game/Levels/kg_DLC/kg_07/kg_07 | Connect the Dots/Keyholes
+|kg_08| /Game/Levels/kg_DLC/kg_08/kg_08 | Terranort fight
 |kg_50| /Game/Levels/kg/kg_50/kg_50     | 
 |kg_51| /Game/Levels/kg/kg_51/kg_51     | 
 |kg_52| /Game/Levels/kg_DLC/kg_52/kg_52 | 
