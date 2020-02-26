@@ -53,6 +53,12 @@ namespace OpenKh.Common
         public static ulong ReadUInt64(this Stream stream) =>
             new BinaryReader(stream).ReadUInt64();
 
+        public static float ReadFloat(this Stream stream) =>
+            new BinaryReader(stream).ReadSingle();
+
+        public static double ReadDouble(this Stream stream) =>
+            new BinaryReader(stream).ReadDouble();
+
         public static List<int> ReadInt32List(this Stream stream, int offset, int count)
         {
             stream.Position = offset;
